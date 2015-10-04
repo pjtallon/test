@@ -1,6 +1,6 @@
 SRC= $(wildcard *.cpp)
 # SRC= main.cpp 
-HDR= $(wildcard *.hpp)
+HDR= $(INCLUDE_DIR)/$(wildcard *.hpp)
 OBJ= $(SRC:.cpp=.o)
 
 LOCAL_NAME=appli_test
@@ -15,13 +15,13 @@ shopping_list: shopping_list.o
 	$(CC) -o $@ $< $(LDFLAGS)
 
 shopping_list.o: shopping_list.cpp
-	$(CC) $(CFLAGS) -o $@ -c $<
+	$(CC) $(CFLAGS) $(LIBS_FLAG) -o $@ -c $<
 
 main.o: main.cpp
-	$(CC) $(CFLAGS) -o $@ -c $<
+	$(CC) $(CFLAGS) $(LIBS_FLAG) -o $@ -c $<
 
 clean:
-	@(rm -rf *.o)
+	rm -rf *.o
 
 mp: clean
-	@(rm -rf $(LOCAL_NAME))
+	rm -rf $(LOCAL_NAME)

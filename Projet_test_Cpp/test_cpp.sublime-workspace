@@ -27,7 +27,7 @@
 			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 657,
+				"buffer_size": 658,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "src/Makefile",
 			"settings":
 			{
-				"buffer_size": 522,
+				"buffer_size": 558,
 				"line_ending": "Windows"
 			}
 		},
@@ -54,15 +54,6 @@
 				"buffer_size": 1187,
 				"line_ending": "Windows",
 				"name": "#include <fstream>"
-			}
-		},
-		{
-			"file": "src/shopping_list.hpp",
-			"settings":
-			{
-				"buffer_size": 1021,
-				"line_ending": "Windows",
-				"name": "#ifndef SHOPPING_LIST_HPP"
 			}
 		}
 	],
@@ -102,6 +93,7 @@
 	],
 	"file_history":
 	[
+		"/E/DEV_REPO/Projet_test_Cpp/src/shopping_list.hpp",
 		"/C/cygwin64/home/Strip/.bashrc",
 		"/C/cygwin64/Cygwin.bat",
 		"/C/Users/Strip/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -158,7 +150,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -167,15 +159,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 657,
+						"buffer_size": 658,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								522,
-								522
+								0,
+								0
 							]
 						],
 						"settings":
@@ -186,7 +178,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -195,15 +187,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 522,
+						"buffer_size": 558,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								522,
-								522
+								0,
+								0
 							]
 						],
 						"settings":
@@ -230,8 +222,8 @@
 						"selection":
 						[
 							[
-								1185,
-								1185
+								498,
+								498
 							]
 						],
 						"settings":
@@ -243,7 +235,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -259,8 +251,8 @@
 						"selection":
 						[
 							[
-								754,
-								754
+								338,
+								338
 							]
 						],
 						"settings":
@@ -270,48 +262,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 4,
-					"file": "src/shopping_list.hpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1021,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								724,
-								724
-							]
-						],
-						"settings":
-						{
-							"auto_name": "#ifndef SHOPPING_LIST_HPP",
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],

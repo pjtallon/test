@@ -7,10 +7,10 @@ export CC=g++
 export NAME=appli_test
 
 # Directories
-export ROOT_DIR=C:/Users/Strip/Dev/Projet_test_Cpp
+export ROOT_DIR=/cygdrive/e/DEV_REPO/Projet_test_Cpp
 export SOURCE_DIR=${ROOT_DIR}/src
-# export BIN_DIR=$(ROOT_DIR)/bin
-# export OBJ_DIR=$(ROOT_DIR)/obj
+export INCLUDE_DIR=$(ROOT_DIR)/include
+export LIBS_FLAG=-I$(INCLUDE_DIR)
 
 ifeq ($(DEBUG),yes)
 	export CFLAGS=-W -Wall -pedantic -g
@@ -27,13 +27,13 @@ appli_test:
 	cd $(SOURCE_DIR) && make appli_test
 
 shopping_list:
-	cd $(SOURCE_DIR)) && make $@.o
+	cd $(SOURCE_DIR) && make $@.o
 
 .PHONY: clean mp
 
 clean: 
-	@(cd $(SOURCE_DIR)) && make $@)
+	cd $(SOURCE_DIR) && make $@
 
 
 mp: clean
-	@(cd $(SOURCE_DIR)) && make $@)
+	cd $(SOURCE_DIR) && make $@
